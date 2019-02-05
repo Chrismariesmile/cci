@@ -1,0 +1,385 @@
+
+body {
+    background-color:  #eef2f4;  
+    font-family: "Raleway", "Helvetica", "Arial", "Lucida", sans-serif;
+    
+}
+
+p, li {
+    color: #666666;
+}
+/* Top Menu Bar */
+.main-logo {
+    height: 70px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 900;
+    margin: 0px 20px;
+}
+
+.nav-link:hover {
+    color: #909090;
+}
+
+.dropdown-menu {
+    background-color: #10284c;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #606060;
+    border-radius: 3px;
+    color: white;
+}
+
+.navbar {
+    margin-right: 0px;
+    background-color: #10284c;
+    letter-spacing: .15rem;
+}
+
+/* Carousel of progress */
+
+.carousel-item {
+    max-height: 720px;
+}
+
+
+/* Content - General */
+
+.container-fluid {
+    margin: auto;
+    width: 90%;
+}
+
+.content {
+    margin: 50px 0;
+    background-color: #eef2f4;
+}
+
+.content p, .content li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-header {
+    font-weight: 900;
+}
+
+
+/* Our Company Page Specific */
+.cert-img {
+    padding-left: 20px;
+}
+
+#map {
+    
+    width: auto;
+    height: 400px;
+}
+
+.mapouter {
+    text-align:right;
+    height:400px;
+    width:1000px;
+}
+
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:1000px;
+}
+    
+.map {
+    margin: 50px 0;
+}
+
+.location-info {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+
+.location-sub, .location-sub a {
+    font-size: .95em;
+    color: #666666;
+}
+
+.location-heading {
+    font-weight: 1000;
+    
+}
+
+.location-blurb {
+    line-height: .8;
+}
+
+/* News */
+.press-img {
+    text-align: center;
+    width: 99%;
+    height: 200px;
+    margin: 30px;
+}
+
+.news {
+    margin: 80px 0px;
+}
+
+
+.news-header {
+    margin-left: 40px;
+}
+
+
+/* Printed Products */
+.printed-products .img-thumbnail {
+    border-radius: 100%;
+    border: none;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.printed-products {
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+.printed-products a {
+    color: royalblue;
+}
+
+.printed-product-item {
+    margin-bottom: 50px;
+}
+
+/* Environmental Graphics */
+
+.carousel-item-environmental-graphics {
+    max-height: 450px;
+}
+
+.environmental-graphics-blurb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.environmental-graphics .img-thumbnail {
+    height: 200px;
+}
+
+
+/* Services Pages */
+
+.testimonial-slide-carousel {
+    
+    background-color: white;
+    padding: 25px;
+   
+}
+
+.services-testimonial-row {
+   margin-bottom: 50px;
+ 
+}
+
+.services-testimonial-container {
+    margin-top: 50px;
+    
+}
+
+.services-testimonial-blurb {
+    padding-top: 25px;
+}
+
+.product-box {
+    background-color: #eef2f4;
+    margin: auto 5p;
+}
+
+.testimonial-box {
+    background-color: white;
+    margin: auto 20px; 
+}
+
+/* Footer Information */
+
+
+footer {
+    height: 200px;
+    text-align: center;
+    line-height: .5em;
+    background-color: #10284c;
+    color: white;
+    font-size: 12px;
+    letter-spacing: .15rem;
+    
+}
+
+footer p {
+    color: white;
+}
+
+footer h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Trying out this Gallery */
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+.environmental-graphics-img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
